@@ -1,0 +1,4 @@
+---
+# tasks file for powershell
+- name: Run powershell script
+  script: root/test-awx-powershell/shared-files/directorio_pepe.ps1 {{ nombre_directorio }}
